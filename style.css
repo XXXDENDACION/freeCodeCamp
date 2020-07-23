@@ -46,12 +46,15 @@ p#about {
   padding: 0.3rem 0.35rem;
   margin: 6px 0 0 -1px;
   background-color: #fff;
-  color:gray;
+  color:black;
   font-weight: normal;
   font-family: Poppins;
   font-size: 16px;
   box-sizing: border-box;
   
+}
+::placeholder {
+  color: gray;
 }
 .description {
   font-weight: 100;
